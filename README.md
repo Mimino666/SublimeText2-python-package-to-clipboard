@@ -23,10 +23,12 @@ Suppose the following directory tree of your Python project:
         __init__.py
         z.py
       
-Depending on the current working file, the following packages will be stored in clipboard:
+Depending on the current working file, the following package names will be stored in clipboard:
 
-    x.py  ->  x
-    y.py  ->  A.y
-    z.py  ->  A.B.z
-    A/__init__.py  ->  A
-    A/B/__init__.py  ->  A.B
+    (current working file)  ->  (package name copied to clipboard)
+    
+    x.py                    ->  x
+    y.py                    ->  A.y
+    z.py                    ->  A.B.z
+    A/__init__.py           ->  A
+    A/B/__init__.py         ->  A.B
