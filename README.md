@@ -1,7 +1,7 @@
 SublimeText2-python-package-to-clipboard
 ========================================
 
-Simple plugin to Sublime Text 2 editor to copy the Python package path of working file to clipboard.
+Simple plugin to Sublime Text 2 editor to copy the Python package path of the working file to clipboard.
 
 Install
 =======
@@ -11,7 +11,12 @@ The easiest way to install this is with [Package Control](http://wbond.net/subli
 Usage
 =====
 
-To copy the python package of working file press `Ctrl+Shift+C`. Note: it only works if the file's extension is .py.
+To copy the Python package path of the working file press `Ctrl+Shift+C` or select an option from the context menu
+(right click somewhere in the text area of the working file).
+Note: it only works if the file's extension is .py.
+
+Example
+=======
 
 Suppose the following directory tree of your Python project:
 
