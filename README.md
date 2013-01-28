@@ -11,8 +11,8 @@ The easiest way to install this is with [Package Control](http://wbond.net/subli
 Usage
 =====
 
-To copy the Python package path of the working file press `Ctrl+Shift+C` or select an option from the context menu
-(right-click somewhere in the text area of the working file).
+To copy the Python package path of the working file press <kbd>Ctrl+Shift+C</kbd> or select an option from the context menu
+(`right-click` somewhere in the text area of the working file).
 
 
 Note: to specify which files should be considered as "Python files" you can edit "python_extensions" variable
