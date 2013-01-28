@@ -21,3 +21,6 @@ class PythonPackageToClipboardCommand(sublime_plugin.TextCommand):
     def is_enabled(self):
         filename = self.view.file_name()
         return filename and path.splitext(filename)[1] == '.py'
+
+    def is_visible(self):
+        return self.is_enabled()
