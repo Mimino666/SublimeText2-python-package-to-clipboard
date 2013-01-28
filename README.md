@@ -12,8 +12,11 @@ Usage
 =====
 
 To copy the Python package path of the working file press `Ctrl+Shift+C` or select an option from the context menu
-(right click somewhere in the text area of the working file).
-Note: it only works if the file's extension is .py.
+(right-click somewhere in the text area of the working file).
+
+
+Note: to specify which files should be considered as "Python files" you can edit "python_extensions" variable
+in the settings.
 
 Example
 =======
