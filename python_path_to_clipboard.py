@@ -12,7 +12,7 @@ class PythonPathToClipboardCommand(sublime_plugin.TextCommand):
         return path.splitext(path.basename(filename))[0]
 
     def _is_package(self, pckg_path):
-        for ext in settings.get('python_extensions', []):
+        for ext in settings.get('python_extensions', ['.py']):
             filename = path.join(pckg_path, '__init__' + ext)
             if path.exists(filename):
                 return True
