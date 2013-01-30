@@ -3,11 +3,11 @@ import sublime
 import sublime_plugin
 
 
-SETTINGS_FILE = 'Python Package to Clipboard.sublime-settings'
+SETTINGS_FILE = 'Python Path to Clipboard.sublime-settings'
 settings = sublime.load_settings(SETTINGS_FILE)
 
 
-class PythonPackageToClipboardCommand(sublime_plugin.TextCommand):
+class PythonPathToClipboardCommand(sublime_plugin.TextCommand):
     def _base_filename(self, filename):
         return path.splitext(path.basename(filename))[0]
 
@@ -32,7 +32,7 @@ class PythonPackageToClipboardCommand(sublime_plugin.TextCommand):
                 break
 
         sublime.set_clipboard('.'.join(reversed(pckg)))
-        sublime.status_message('Copied python package')
+        sublime.status_message('Copied python import path')
 
     def is_enabled(self):
         filename = self.view.file_name()

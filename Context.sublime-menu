@@ -1,4 +1,4 @@
 [
     { "caption": "-", "id": "file" },
-    { "command": "python_package_to_clipboard", "caption": "Copy Python Package Path"}
+    { "command": "python_path_to_clipboard", "caption": "Copy Python Path"}
 ]

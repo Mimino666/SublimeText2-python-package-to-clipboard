@@ -1,3 +1,3 @@
 [
-	{ "keys": ["ctrl+shift+c"], "command": "python_package_to_clipboard" }
+	{ "keys": ["ctrl+shift+c"], "command": "python_path_to_clipboard" }
 ]

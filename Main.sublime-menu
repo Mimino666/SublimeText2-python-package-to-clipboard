@@ -12,20 +12,20 @@
                 "children":
                 [
                     {
-                        "caption": "PythonPackageToClipboard",
+                        "caption": "PythonPathToClipboard",
                         "children":
                         [
                             {
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/Python Package to Clipboard/Python Package to Clipboard.sublime-settings"
+                                    "file": "${packages}/Python Path to Clipboard/Python Path to Clipboard.sublime-settings"
                                 },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/User/Python Package to Clipboard.sublime-settings"
+                                    "file": "${packages}/User/Python Path to Clipboard.sublime-settings"
                                 },
                                 "caption": "Settings – User"
                             },
